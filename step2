@@ -1,2 +1,1 @@
-https://{slug}.nationbuilder.com/oauth/authorize?response_type=code&client_id=...&redirect_uri=...
-<--add slug 'farz' clientid=666f7fafb0c2559a2970f0b2487cb153a8cbe834b0916365a9cc5e06d28bb699, redirect=https://www.farz.com/oauth_tool/callback-->
+https://farz.nationbuilder.com/oauth/authorize?response_type=code&client_id=666f7fafb0c2559a2970f0b2487cb153a8cbe834b0916365a9cc5e06d28bb699&redirect_uri=https://www.farz.com/oauth_tool/callback
