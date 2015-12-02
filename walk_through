@@ -1,0 +1,12 @@
+https://farz.nationbuilder.com/oauth/authorize?response_type=code&client_id=d3ce903c938e901872348003e37ef989b43db9e7d79fe30ef49a691d43cef108&redirect_uri=http://farz.nationbuilder.com/oauth_callback
+
+#returns code
+
+http://farz.nationbuilder.com/oauth_callback?code=e3d242931d7e915aa3dd80097c78927fa348e0071f9e126b43e5868add25db30
+
+#exchange code for access token
+
+curl -X POST --header "Content-Type: application/json" --header "Accept: application/json" --data '{"grant_type":"authorization_code", "code":"e3d242931d7e915aa3dd80097c78927fa348e0071f9e126b43e5868add25db30", "client_id":"d3ce903c938e901872348003e37ef989b43db9e7d79fe30ef49a691d43cef108", "client_secret":"2c199d9fcb7d041f93d584a0e741a473bc440dd5513cfe8edd3c7e1f0347bc30", "redirect_uri":"http://farz.nationbuilder.com/oauth_callback"}' https://farz.nationbuilder.com/oauth/token
+
+  
+  
